@@ -38,7 +38,8 @@
             android:layout_marginBottom="10dp"
             android:paddingLeft="10dp"
             android:paddingRight="10dp"
-            android:id="@+id/spotifyButton"/>
+            android:id="@+id/spotifyButton"
+            android:onClick="clicked"/>
         <Button
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -47,7 +48,8 @@
             android:layout_marginBottom="10dp"
             android:paddingLeft="10dp"
             android:paddingRight="10dp"
-            android:id="@+id/scoresButton"/>
+            android:id="@+id/scoresButton"
+            android:onClick="clicked"/>
         <Button
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -56,7 +58,8 @@
             android:layout_marginBottom="10dp"
             android:paddingLeft="10dp"
             android:paddingRight="10dp"
-            android:id="@+id/libraryButton"/>
+            android:id="@+id/libraryButton"
+            android:onClick="clicked"/>
         <Button
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -65,7 +68,8 @@
             android:layout_marginBottom="10dp"
             android:paddingLeft="10dp"
             android:paddingRight="10dp"
-            android:id="@+id/buildButton"/>
+            android:id="@+id/buildButton"
+            android:onClick="clicked"/>
         <Button
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -75,7 +79,7 @@
             android:paddingLeft="10dp"
             android:paddingRight="10dp"
             android:id="@+id/xyzButton"
-            />
+            android:onClick="clicked" />
         <Button
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -83,7 +87,8 @@
             android:background="@color/highlightButton"
             android:paddingLeft="10dp"
             android:paddingRight="10dp"
-            android:id="@+id/capstoneButton"/>
+            android:id="@+id/capstoneButton"
+            android:onClick="clicked"/>
 
     </LinearLayout>
     </ScrollView>
