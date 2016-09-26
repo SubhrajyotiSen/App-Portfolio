@@ -23,26 +23,30 @@ public class MainActivity extends AppCompatActivity {
     public void clicked(View view){
         switch (view.getId()){
             case R.id.spotifyButton:
-                Toast.makeText(getApplicationContext(),"This button will launch my Spotify Streamer app",Toast.LENGTH_SHORT).show();
+                makeToast("This button will launch my Spotify Streamer app");
                 break;
             case R.id.scoresButton:
-                Toast.makeText(getApplicationContext(),"This button will launch my Scores app",Toast.LENGTH_SHORT).show();
+                makeToast("This button will launch my Scores app");
                 break;
             case R.id.libraryButton:
-                Toast.makeText(getApplicationContext(),"This button will launch my Library app",Toast.LENGTH_SHORT).show();
+                makeToast("This button will launch my Library app");
                 break;
             case R.id.buildButton:
-                Toast.makeText(getApplicationContext(),"This button will launch my Build it Bigger app",Toast.LENGTH_SHORT).show();
+                makeToast("This button will launch my Build it Bigger app");
                 break;
             case R.id.xyzButton:
-                Toast.makeText(getApplicationContext(),"This button will launch my XYZ Reader app",Toast.LENGTH_SHORT).show();
+                makeToast("This button will launch my XYZ Reader app");
                 break;
             case R.id.capstoneButton:
-                Toast.makeText(getApplicationContext(),"This button will launch my Capstone app",Toast.LENGTH_SHORT).show();
+                makeToast("This button will launch my Capstone app");
                 break;
 
         }
 
+    }
+    
+    public void makeToast(String string){
+        Toast.makeText(getApplicationContext(), string, Toast.LENGTH_SHORT).show();
     }
 
 
